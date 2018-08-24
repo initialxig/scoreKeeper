@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" type="text/css" href="scoreKeeper.css">
+	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+</head>
+<body>
+
+	<div id="container">
+		<div id="header">
+			<ul id="playerNames">
+				<li class="one">PLAYER ONE</li>
+				<li class="logo"><img src="https://vignette.wikia.nocookie.net/deathbattlefanon/images/a/af/4284025-6271335549-vs.pn.png/revision/latest?cb=20150120225117" height="80" width="80"></li>
+				<li class="two">PLAYER TWO</li>
+			</ul>
+		</div>
+
+		<div id="playerDisplay">
+			<div id="p1Display">0</div> 
+			<div id="p2Display">0</div>
+		</div>	
+		<div id="section3">
+			<p>Playing to: <span>5</span></p>
+			<input type="number" min="1" max="99">
+		</div>
+		<div id="section4">	
+			<button id="p1">Player One</button>
+			<button id="p2">Player Two</button>
+		</div>
+		<div id="section5">	
+			<button id="reset">Reset</button>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="scoreKeeper.js"></script>
+</body>
+</html>

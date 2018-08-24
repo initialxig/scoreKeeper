@@ -1,0 +1,138 @@
+.winner {
+	color: lightgreen;
+}
+
+body {
+	padding: 0px;
+	margin: auto;
+	color: white;
+	font-family: 'Passion One', cursive;
+/*	max-width: 700px;
+	max-height: 900px;*/
+}
+#container {
+/*	text-align: center;
+*/	margin: auto;
+	height: 700px;
+	width: 900px;
+	background: url("https://image.freepik.com/free-photo/grunge-metal-background_1048-1510.jpg");
+	background-size: 100%;
+
+}
+
+/*	background-image: url("https://media.istockphoto.com/vectors/brushed-metal-background-vector-id611067250?k=6&m=611067250&s=612x612&w=0&h=KSL-sY-l0_2ZZzj9Zc_0aLU61EzQOqNMKocNa4iTtug=");
+*/
+
+
+
+#playerNames {
+	list-style: none;
+	text-align: center;
+	padding: 10px 0 0 0;
+	color: white;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+#playerNames > li {
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	margin-right: 30px;
+	margin-left: 30px;
+	text-align: center
+
+}
+
+.one, .two {
+	padding: 0 10px 0 10px;
+	border-radius: 3px;
+	
+}
+.one {
+	background-color: rgba(214, 66, 47, 0.3);
+}
+
+.two {
+	background-color: rgba(62, 125, 193, 0.3);
+}
+.logo {
+	position: relative;
+/*	left: 300px;*/
+	top: 20px;	
+}
+
+
+#p1Display {
+	display: inline-block;
+	float: left;
+	margin-left: 50px;
+}
+#p2Display {
+	display: inline-block;
+	float: right;
+	margin-right: 50px;
+}
+
+#p1Display, #p2Display {
+	text-align: center;
+	font-size: 350px;
+	background-color: rgba(167, 185, 214, 0.2);
+	border-radius: 20px;
+	width: 370px;
+	height: 365px;
+}
+
+p {
+	display: inline-block;
+	margin: 10px 200px 0 180px;
+	font-size: 50px;
+}
+
+#section3 {
+	text-align: center;
+}
+
+input {
+	position: relative;
+	right: 170px;
+	bottom: 5px;
+	width: 60px;
+	height: 40px;
+	font-size: 30px;
+}
+
+#section4 {
+	text-align: center;
+	margin: auto;
+}
+
+#p1, #p2 {
+	font-size: 30px;
+	width: 300px;
+	height: 70px;
+	margin: 10px 30px 10px 30px;
+	border-radius: 6px;
+}
+
+#p1 {
+	background-color: rgba(214, 66, 47, 0.7);
+	font-weight: bolder;
+}
+
+#p2 {
+	background-color: rgba(62, 125, 193, 0.7);
+	font-weight: bolder;
+}		
+
+#section5 {
+	text-align: center;
+	margin: auto;
+}
+
+#reset {
+	width: 90px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 50px;
+	background-color: rgba(186, 179, 61, 0.9);
+}
